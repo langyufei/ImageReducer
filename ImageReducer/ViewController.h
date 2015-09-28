@@ -10,6 +10,8 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTableView *tableView;
+@property (weak) IBOutlet NSTextField *destPathLabel;
 
 @end
 

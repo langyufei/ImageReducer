@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA4F0671BB9D16000C3FC55 /* user_avatar_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4F0661BB9D16000C3FC55 /* user_avatar_placeholder.png */; };
 		6B9EF49219F648EF00D745EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49119F648EF00D745EB /* AppDelegate.m */; };
 		6B9EF49419F648EF00D745EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49319F648EF00D745EB /* main.m */; };
 		6B9EF49719F648EF00D745EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49619F648EF00D745EB /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA4F0661BB9D16000C3FC55 /* user_avatar_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_avatar_placeholder.png; sourceTree = "<group>"; };
 		6B9EF48B19F648EE00D745EB /* ImageReducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageReducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9EF48F19F648EF00D745EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B9EF49019F648EF00D745EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				6B9EF4B119F6495D00D745EB /* PNGDropView.h */,
 				6B9EF4B219F6495D00D745EB /* PNGDropView.m */,
 				6B9EF49819F648EF00D745EB /* Images.xcassets */,
+				0CA4F0661BB9D16000C3FC55 /* user_avatar_placeholder.png */,
 				6B9EF49A19F648EF00D745EB /* Main.storyboard */,
 				6B9EF48E19F648EF00D745EB /* Supporting Files */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA4F0671BB9D16000C3FC55 /* user_avatar_placeholder.png in Resources */,
 				6B9EF49919F648EF00D745EB /* Images.xcassets in Resources */,
 				6B9EF49C19F648EF00D745EB /* Main.storyboard in Resources */,
 			);
@@ -410,6 +414,7 @@
 				6B9EF4AD19F648EF00D745EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B9EF4AE19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducerTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				6B9EF4B019F648EF00D745EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
